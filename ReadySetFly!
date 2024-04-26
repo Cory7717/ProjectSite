@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadySetFly!</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+
+<class id="banner"></class>
+<class id="background"></class>
+<body class="body">
+    <h1>Welcome to Ready, Set Fly!</h1>
+    <p> <p>Aviation is passion.  At Ready, Set, Fly! we help reduce the cost of overall aircraft ownership.  Any pilot will tell you that it isn't cheap.  As an owner, choosing to list your plane on our app for rent, will help mitigate the overall costs of ownership.  
+
+        As an owner, ask yourself this; How many days per month do you actually fly your plane?  You will have the ability to control how many days per month you want your aircraft listed via your owner’s portal in the app.  
+        
+        <br><br>Here is a generic example of how monetizing your aircraft will help with annual expenses.  
+        
+        Let’s say you list your Cessna 182 for $150/hr wet.  Your aircraft will be paired with someone that is certified in your type of plane and has certified hours with your specific avionics, etc...  Let’s say you rent your plane for 100 hours per year.  That translates to $15k that your airplane has made for you.  Imagine what that will pay for each year.  For a more in depth breakdown, send us a quick email.  
+        
+        <br><br>For more information or to get launch date information, go to the 'Learn more' tab and send us a quick note.  We will keep you posted when we go live!
+        
+        If you're selling your aircraft and would like information about having it listed in our classified section, send us a quick email on the 'Learn more' tab</p></p>
+    <img id="diamondtwin" src="./images/diamondda62.jpg" class="center" alt="Diamond DA62 Twin Engine">
+
+    <!--Banner Section-->
+
+    
+   
+
+    <!--Below is to add a submit button with customg text-->
+
+    <form action="" class="contact1">
+        <input type="text" name="" id="">
+        <input type="submit" value="Learn More">      
+        <input type="email" name="" id="Email Us">
+        <input type="button" value="Email Us">
+        <input type="password" name="Password" id="Password">
+        <input type="submit" value="Submit">
+    </form>
+
+    <ul>
+        <li>Built to help mitigate cost of aircraft ownership</li>
+        <li>Makes aircraft available for pilots who need ot build time</li>
+        <li>Rent an aircraft that you are certified in for quick weekend getaways</li>
+        <li>Visit our aircraft classified section to browse for your new airplane</li>
+    </ul>
+    <footer></footer> 
+    <div class="bottomnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">Download iOS or Android</a>
+        <a href="#contact">Contact</a>
+        <a href="#search">Search</a>
+        <a href="#about">About</a>
+    </div>
+</footer>
+
+
+    
+</body>
+</html>
