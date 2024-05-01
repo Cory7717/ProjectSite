@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <title>HotelMeNow</title>
+  <h1 class id="head">Welcome to<br> <a href="http://hotelmenow.com" class id="website">HotelMeNow.com</a></h1>
+ <h5>With your travel host: <a href="https://www.linkedin.com/in/cory-armer/" target="_blank">Cory Armer</h5>
+  <link rel="stylesheet" href="styles.css" />
+  <main>
+    <header>
+      <nav class id="nav">
+        <span><a href="#">Home</a></span>
+        <span><a href="#">Hotel Tips</a></span>
+        <span><a href="#">Book Travel</a></span>
+        <span><a href="#">Hotel Stories</a></span>
+      </nav>
+    </header>
+  </main>
+  <body>
+    <h2>Get Hotel Insight from Industry Professionals</h2>
+    <img 
+      class
+      id="hbackground"
+      src="HotelBackground.jpg"
+      alt="Hotel Beach View"    
+    />
+
+    <!-- Travel stories and content below -->
+    
+    <p class id="p1">Below, I will outline the different types of "service" levels that each Star Rating will provide.  Hover over each star level for a mroe comprehensive list of amenities and services that each provide.</p>
+    <body>
+      <header>
+        <h1 class id="h1table">Know what to Expect when booking</h1>
+        
+        </header>
+      <div class="tablecontent">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="5" h1 class id="h1table">Different types of Service Levels</h1></th>
+              
+             </tr> 
+             <tr>
+              <th>
+                <h2>Limited Service</h2>
+                </th>
+                <th>
+                  <h2>Select Service</h2>
+                  </th>
+                  <th>
+                    <h2>Limited Full Service</h2>
+                    </th>
+                    <th>
+                      <h2><a href="https://en.wikipedia.org/wiki/Hotel" target="_blank">Full Service</a></h2>
+                      </th>
+                      <th>
+                        <h2><a href="https://en.wikipedia.org/wiki/Category:Luxury_hotels" target="_blank">Luxurious</a></h2>
+                        </th>
+                  </thead>
+      
+      <!-- Add Title info to remaining star levels-->
+      
+      <tbody>
+        <tr>
+          <td class="left"><h3 href="#" title="Basic Continental or No Breakfast, Limited housekeeping services">1-Star</h3></td>
+          <td><h3 href="#" title="Usually a buffet style breakfast, daily housekeeping services until mid afternoon, 24-hour front desk service">2-Star</h3></td>
+          <td><h3>3-Star</h3></td>
+          <td><h3>4-Star</h3></td>
+          <td><h3>5-Star</h3></td>
+        </tr>
+        <tr>
+          <td class="left"><h3>Basic Amenities</h3></td>
+          <td><h3>Typical complimentary breakfast, 24-hr Desk Service</h3></td>
+          <td><h3>Usually find limited restaurants and some bar service.</h3></td>
+          <td><h3>Full service, All day or 24 hour Concierge, etc.</h3></td>
+          <td><h3>Ultra Luxurious</h3></td>
+        </tr>
+        <tr>
+          <td class="left"><h3>Econolodge, Motel6, etc.</h3></td>
+          <td><h3>Comfort Inn, Quality Inn, Holiday Inn Express</h3></td>
+          <td><h3>Hyatt Place, Courtyard, Holiday Inn</h3></td>
+          <td><h3>Marriott, Starwood, </h3></td>
+          <td><h3>JW, Ritz Carlton, The Driskall, Hyatt Regency</h3></td>
+        </tr>
+        <tr>
+          <td class="left"><h3>**Average rates: $59 to $89</h3></td>
+          <td><h3>**Average starting rates: $89 to $109</h3></td>
+          <td><h3>**Average starting rates: $109 to $159</h3></td>
+          <td><h3>**Average starting rates: $159 to $209</h3></td>
+          <td><h3>**Average starting rates: $209 and up</h3></td>
+        </tr>
+        
+      </tbody>
+</table>
+<h4>**Average rates exclude any high demand dates or events and varie based on geographic location**</h4>
+  <h2>Hotel Tips:  Know before you go!</h2>
+    <p class id="p2"><em>Travel tip #1:</em>  Know the types of services the hotel provides based on their "Star Rating".  Very few things are more frustrtaing for travelers and hotel employees than guests arriving with expectations that aren't provided by the hotel.  For example: If you are looking for a good complimentary breakfast, research which hotels offer that as an option before booking. If you book a stay at a full service Holiday Inn, expect for the breakfast to be better quality but will not be complimentary.  You would be better suited staying at a Holiday Inn Express than a full service Holiday Inn.  
+    </p>
+
+    <h2>Book Travel</h2>
+    <p class id="p3">
+      Not only do we share our travel stories and tips, HotelMeNow also helps
+      with any travel needs you have coming up in the near future. Whether you
+      are a company that needs a 500 room block for 5 nights in Vegas, or a Bride
+      and Groom to be that needs 10 rooms for 3 nights in Napa Valley, we are
+      here to help get you the best deal possible. <br /><br />
+      If you'd like information about getting the best deal for your next
+     hotel adventure, fill out the form below and someone will reach
+      out with 24 hours.
+    </p>
+    <div class="booknow">
+      <button>Book Now!</button>
+    </div>
+    <br>
+    </form>
+    <form action="" class="contact1">
+        <input type="text" name="" id="">
+        <input type="submit" value="Learn More">      
+        <input type="email" name="" id="Email Us">
+        <input type="button" value="Email Us">
+        <input type="password" name="Password" id="Password">
+        <input type="submit" value="Submit">
+    <br />
+  </body>
+  <footer>
+    <nav class id="footer">
+      <span><a href="#">Contact Me</a></span>
+    </nav>
+  </footer>
+
+</html>
