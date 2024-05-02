@@ -1,0 +1,40 @@
+<!-- html code of ul for breadcrumbs-->
+
+<ul class id="breadcrumb">
+  <li class="location"><a href="#">Shop</a></li>
+  <li class="location"><a href="#">Groceries</a></li>
+  <li class="location"><a href="#">Blueberries</a></li>
+  <li class="attribute"><a href="#">Organic</a></li>
+</ul>
+
+<!--css for breandrumbs-->
+#breadcrumb {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#breadcrumb > li {
+  display: inline;
+}
+#breadcrumb li.location+li.location::before {
+  content: ">";
+}
+#breadcrumb li.location a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+#breadcrumb li.attribute a {
+  color: gray;
+  margin-left: 10px;
+}
+#breadcrumb li.attribute::after {
+  content: "*";
+  vertical-align: super;
+  color: gray;
+
+}
+#breadcrumb li.attribute a:hover {
+  color: gray;
+  font-size: 20px;
+}
