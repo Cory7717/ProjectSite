@@ -1,31 +1,55 @@
 console.log(`${userName} has asked - ${userQuestion}`);
-let randomNumber = Math.floor(Math.random() * 8);
-console.log(randomNumber);
-let eightBall = '';
-switch (randomNumber) {
+let dinnerTonight = Math.floor(Math.random() * 15);
+console.log(dinnerTonight);
+let mealChoice = '';
+switch (dinnerTonight) {
   case '0':
-  eightBall = 'It is certain.'
+  mealChoice = 'Chuey's or Casa Garcia '
   break;
   case 1 :
-  eightBall = 'It is decidedly so.'
+  mealChoice = 'Pizza.'
   break;
   case 2 :
-  eightBall = 'Reply hazy try again.'
+  mealChoice = 'Mississippi Pot Roast.'
   break;
   case 3 :
-  eightBall = 'Cannot predict right now.'
+  mealChoice = 'Breakfast for Dinner.'
   break;
   case 4 :
-  eightBall = 'Do not count on it.'
+  mealChoice = 'BBQ - Dealers choice on home cooked or takeout.'
   break;
   case 5 :
-  eightBall = 'My sources say no.'
+  mealChoice = 'Meal Simple from HEB.'
   break;
   case 6 :
-  eightBall = 'Outlook not so good.'
+  mealChoice = 'Sausage with BBQ sauce, Mac & Cheese or mashed potatoes.'
   break;
   case 7 :
-  eightBall = 'Signs point to yes'
+  mealChoice = 'Mississippi baked chicken'
+  break;}
+  case 8 :
+  mealChoice = 'Whataburger, P Terry's, or Dairy Queen'
+  break;}
+  case 9 :
+  mealChoice = 'Texas Roadhouse'
+  break;}
+  case 10 :
+  mealChoice = '54th St Diner'
+  break;}
+  case 11 :
+  mealChoice = 'Jersey Mike's or Subway'
+  break;}
+  case 12 :
+  mealChoice = 'Spaghetti - Either regular or chicken'
+  break;}
+  case 13 :
+  mealChoice = 'Sheperds Pie'
+  break;}
+  case 14 :
+  mealChoice = 'Soup or Sandwich and Salad'
+  break;}
+  case 15 :
+  mealChoice = 'Chinese Food'
   break;}
 
-  console.log(`The Magic 8 Ball says, ${eightBall}.`);
+  console.log(`Dinner tonight will be, ${dinnerTonight}.`);
